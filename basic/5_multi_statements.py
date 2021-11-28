@@ -14,8 +14,11 @@
 """
 
 # 使用反斜线\
+# [],{},()中不使用
 total = 1 + \
         2 + \
         3
 print(total)
-# [],{},()中不使用
+
+# 一行中包含多条语句,用;分割 
+import sys; x="abc"; sys.stdout.write(x + "\n")
